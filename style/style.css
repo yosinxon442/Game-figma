@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1450px;
+    border: 1px solid;
+    margin: 0 auto;
+    display: flex;
+}
+
+.cont__box1{
+    width: 12%;
+    border: 1px solid;
+
+}
+
+.cont__log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont__log img{
+    margin: 30px 0 60px 0;
+}
+
+.cont__left__logs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cont__left__logs div{
+    padding: 11px;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    transition: 0.6s;
+}
+
+.cont__left__logs div:hover{
+    background-color: #f1f1f15e;
+    box-shadow: 0 0 10px rgba(70, 67, 67, 0.313);
+    transform: scale(1.02);
+    transition: 0.6s;
+}   
+
+.cont__left__logs div img{
+    width: 30px;
+}
+
+.cont__box2{
+    width: 88%;
+    background-color: #ECEFF5;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    align-items: center;
+}
+
+nav input{
+    width: 550px;
+    border-radius: 12px;
+    padding: 13px;
+    border: none;
+}
+
+.top__bx{
+    padding: 10px 12px;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.top__bx:hover{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(157, 151, 151, 0.313);
+    transform: scale(1.02);
+    transition: 0.6s;
+}
+
+.left{
+    width: 65%;
+    padding: 30px;
+    border-radius: 15px;
+    color: #fff;
+    height: 300px;
+    margin: 0 30px;
+    background-image: linear-gradient(to right, #283C64 , #5B82CE);
+}
+
+.rayt__box{
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+.pos {
+    position: absolute;
+    top: -27px;
+    width: 348px;
+    right: 443px;
+}
+
+.left h1 {
+    margin: 30px 0;
+    font-size: 37px;
+}
+
+.left button{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: #5E8DEA;
+    border: none;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    padding: 12px 30px;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.left button:hover{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(157, 151, 151, 0.313);
+    color: #283C64;
+    transform: scale(1.02);
+    transition: 0.6s;
+}
+
+.posflash {
+    position: absolute;
+    top: 0px;
+    width: 673px;
+    right: 416px;
+}
+
+.box__play{
+    width: 25%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 18px;
+}
+
+.igr__box{
+    display: flex;
+    gap: 15px;
+    margin: 15px 0 0 0;
+}
+
+.igr__btn{
+    padding: 0px 20px;
+    border-radius: 20px;
+    background-color: #FAF9FE;
+    color: #5E8DEA;
+    border: none;
+    transition: 0.6s;
+}
+
+
+.igr__box div h3{
+    font-size: 16px;
+}
+
+.igr__box div p{
+    font-size: 12px;
+}
+
+.igr__btn:hover{
+    background-color: #5E8DEA;
+    color: #fff;
+    transition: 0.6s;
+    transform: scale(1.02);
+}
+
+.header{
+    display: flex;
+    padding: 0px 40px 0 5px;
+    justify-content: space-around;
+}
+
+
+.head__r{
+    width: 21%;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.head__1{
+    width: 21%;
+    margin: 30px 0 0 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head__r img{
+    width: 100%;
+}
+
+.head__r h3{
+    margin: 0 15px;
+}
+
+.flec{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 15px 10px 15px;
+}
+
+.flec img{
+    width: 12px;
+}
+
+.flec p{
+    margin: 0 5px;
+}
+
+.flec__btn{
+    padding: 12px 80px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: #5E8DEA;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.head__1 div{
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 9px;
+    transition: 0.6s;
+}
+
+.head__1 div:hover{
+    box-shadow: 0 5px 8px rgba(61, 59, 59, 0.243) ;
+    transform: scale(1.02);
+    transition: 0.6s;
+}
+
+.staks{
+    padding: 30px 40px;
+}
+
+.staks__box{
+    display: flex;
+    gap: 15px;
+}
+
+.dayner{
+    padding: 24px 17px;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: #fff;
+    display: flex;
+    gap: 40px;
+}
+
+.dyner{
+    width: 700px;
+    margin-top: 10px;
+    height: 25px;
+}
+
+.and__btn{
+    display: flex;
+    gap: 10px;
+}
+
+.and__btn button{
+    padding: 11px 30px;
+    border: none;
+    border: 1px solid  #5E8DEA4D;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: 0.6s;
+}
+
+.and__btn button:hover{
+    background-color: #699afb;
+    color: #fff;
+    transition: 0.6s;
+}
